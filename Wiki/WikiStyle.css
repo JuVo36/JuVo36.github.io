@@ -24,8 +24,8 @@ body{
     background-color: rgb(119, 119, 119);
     border-color: rgb(56, 56, 56);
     border-style: solid;
-    word-break: break-all; /*  */
-    word-wrap: break-word; /* if you want to cut the complete word */
+    word-break:normal; /*  */
+    word-wrap:normal; /* if you want to cut the complete word */
     white-space: normal; /* be sure its not 'nowrap'! ! ! :/ */
 }
 .article h1{
