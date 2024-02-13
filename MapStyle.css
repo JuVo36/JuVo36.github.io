@@ -1,14 +1,23 @@
+body{
+ background-color: rgb(48, 42, 42);
+}
 .map{
     position:absolute;
     z-index: 0;
     display:inline;
-    left: 18%;
-    top: 10%;
-    height: 80%;
-    width: 62%;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    left: 8px;
+    top: 55.5px;
+    height:max-content;
+    width:max-content;
+    overflow: scroll;
+}
+.map .imgDiv{
+    position:absolute;
+    z-index: 0;
+    display:inline;
+    height: 664px;
+    width: 1008px;
+    overflow: scroll;
 }
 .marker-wrap{
     position:absolute;

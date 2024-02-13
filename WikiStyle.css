@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(56, 56, 56);
+   }
+
+.container{
+    position: relative;
+    left: 5%;
+    top: 7%;
+    overflow: auto;
+    width: 90%;
+    height: 88%;
+    min-width: 800px;
+    min-height: 200px;
+}
+
+.article{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 0%;
+    overflow: auto;
+    height: 99%;
+    border-radius: 5px;
+    background-color: rgb(119, 119, 119);
+    border-color: rgb(56, 56, 56);
+    border-style: solid;
+    word-break: break-all; /*  */
+    word-wrap: break-word; /* if you want to cut the complete word */
+    white-space: normal; /* be sure its not 'nowrap'! ! ! :/ */
+}
+.article h1{
+    color: rgb(90, 46, 30);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(100, 100, 100);
+}
+.article h2{
+    color: rgb(48, 30, 23);
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(100, 100, 100);
+}
+.article .section{
+    position: relative;
+    border-width: 1px;
+    border-color: rgb(100, 100, 100);
+    border-style: dotted;
+    width: 94%;
+    left: 3%;
+
+    height: min-content;
+} 
+.TOC{
+    position: absolute;
+    
+    min-height: fit-content;
+    top: 0%;
+    left: 0%;
+    height: 99%;
+    width: 14%;
+    border-radius: 5px;
+    background-color: rgb(119, 130, 119);
+    border-color: rgb(44, 70, 44);
+    border-style: solid;
+}
+.TOC h1{
+    text-align: center;
+}
+.TOC ul h3{
+    text-indent: 5px;
+    text-decoration: underline;
+}
+.TOC ul{
+    position: absolute;
+    top: 9%;
+    left: 3%;
+    
+    list-style-type: circle;
+}
+.related{
+    position: absolute;
+    min-height: fit-content;
+    top: 6%;
+    right: 0%;
+    height: 93%;
+    width: 13.5%;
+    border-radius: 5px;
+    background-color: rgb(130, 119, 119);
+    border-color: rgb(70, 44, 44);
+    border-style: solid;
+}
+.related .linkGroup{
+    position: absolute;
+    border-width: 1px;
+    background-color: rgb(145, 125, 125);
+    border-color: rgb(100, 100, 100);
+    border-style: dotted;
+    top: 1%;
+    width: 94%;
+    left: 3%;
+    height: min-content;
+}
+.linkGroup h3{
+    text-indent: 5px;
+}
+.related .linkGroup ul{
+    list-style-type: circle;
+}
+.mapLink{
+    position: absolute;
+    min-height: fit-content;
+    top: 0%;
+    height: 5%;
+    width: 13.5%;
+    right: 0%;
+    border-radius: 5px;
+    background-color: rgb(119, 119, 130);
+    border-color: rgb(44, 44, 70);
+    border-style: solid;
+    text-align: center;
+}
+.mapLink h2{
+    top: 10%;
+}
