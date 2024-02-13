@@ -1,25 +1,33 @@
 <head>
-    <link rel="stylesheet" href="MapStyle.css" type="text/css"></style>
+    <link rel="stylesheet" href="MapStyle.css" type="text/css">
     <script src="https://kit.fontawesome.com/ec1b0c5d3f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="NavBar/NavigationBarStyle.css" type="text/css">
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#Maps">Maps</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
 </head>
-<div class="map">
-    <img src="TestMap.png"/>
-    <div class="marker-wrap" style="bottom:450; right:420;">
-        <a style="display:block" href="StartingSettlement.html">
-            <i class="fas fa-map-marker-alt fa-2xl"></i>
-            <span class="marker-hover-text">Twinleaf City</span>
-        </a>
+<body>
+    <div class="map" style="background-image: url('TestMap.png');">
+        <div class="marker-wrap" style="bottom:63%; right:42%;">
+            <a style="display:block" href="StartingSettlement.html">
+                <i class="fas fa-map-marker-alt fa-2xl"></i>
+                <span class="marker-hover-text">Twinleaf City</span>
+            </a>
+        </div>
+        <div class="marker-wrap" style="bottom:50%; right: 61.1%;">
+            <a style="display:block" href="VanishingTower.html">
+                <i class="fas fa-map-marker-alt fa-2xl"></i>
+                <span class="marker-hover-text">Vanishing Tower</span>
+            </a>
+        </div>
+        <div class="marker-wrap" style="bottom:12%; right: 42.5%;">
+            <a style="display:block" href="SevenStatues.html">
+                <i class="fas fa-map-marker-alt fa-2xl"></i>
+                <span class="marker-hover-text">Seven Statues</span>
+            </a>
+        </div>
     </div>
-    <div class="marker-wrap" style="bottom:360; right: 615;">
-        <a style="display:block" href="VanishingTower.html">
-            <i class="fas fa-map-marker-alt fa-2xl"></i>
-            <span class="marker-hover-text">Vanishing Tower</span>
-        </a>
-    </div>
-    <div class="marker-wrap" style="bottom:100; right: 425;">
-        <a style="display:block" href="SevenStatues.html">
-            <i class="fas fa-map-marker-alt fa-2xl"></i>
-            <span class="marker-hover-text">Seven Statues</span>
-        </a>
-    </div>
-</div>
+</body>

@@ -1,9 +1,14 @@
 .map{
-    position:relative;
+    position:absolute;
     z-index: 0;
     display:inline;
-    width: 100px;
-    height: 100px;
+    left: 18%;
+    top: 10%;
+    height: 80%;
+    width: 62%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .marker-wrap{
     position:absolute;
@@ -11,7 +16,7 @@
 }
 .marker-wrap .marker-hover-text {
     border-radius: 10px;
-    background-color:beige;
+    background-color:rgba(212, 219, 151, 0.582);
     display: none;
     position: absolute;
     bottom: 13;
